@@ -18,11 +18,13 @@ Este projeto implementa um sistema bancário simples que permite aos usuários c
 
 ## Exemplo de Execução:
 
+```
 Por favor, informe o número da sua Conta Corrente: 123456
 Por favor, digite o número da Agência: ABC123
-Por favor, digite o nome do titular da conta: John Doe
-Ok, Sr. Doe. Preciso que digite o saldo atual da sua conta: 1000.50
-Olá John Doe, obrigado por criar uma conta em nosso banco!
+Por favor, digite o nome do titular da conta: John
+Ok, Sr. John. Preciso que digite o saldo atual da sua conta: 1000.50
+Olá John, obrigado por criar uma conta em nosso banco!
 Sua agência é: ABC123
 Sua conta é: 123456
 Seu saldo atual é de: R$ 1.000,50
+```
