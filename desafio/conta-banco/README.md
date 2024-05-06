@@ -1,18 +1,28 @@
-## Getting Started
+# Readme - Sistema Bancário Simples via Terminal
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição:
 
-## Folder Structure
+Este projeto implementa um sistema bancário simples que permite aos usuários criar uma nova conta e visualizar os detalhes da conta, simulados via terminal. Este projeto foi desenvolvido como parte de um desafio da Digital Innovation One.
 
-The workspace contains two folders by default, where:
+## Funcionalidades:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Solicitação do número da conta corrente (inteiro).
+- Solicitação do número da agência (string).
+- Solicitação do nome do titular da conta (string).
+- Solicitação do saldo atual da conta (double).
+- Exibição de mensagem de agradecimento e detalhes da conta criada, incluindo:
+  - Nome do titular.
+  - Agência.
+  - Número da conta.
+  - Saldo disponível (formatado com duas casas decimais).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Exemplo de Execução:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Por favor, informe o número da sua Conta Corrente: 123456
+Por favor, digite o número da Agência: ABC123
+Por favor, digite o nome do titular da conta: John Doe
+Ok, Sr. Doe. Preciso que digite o saldo atual da sua conta: 1000.50
+Olá John Doe, obrigado por criar uma conta em nosso banco!
+Sua agência é: ABC123
+Sua conta é: 123456
+Seu saldo atual é de: R$ 1.000,50

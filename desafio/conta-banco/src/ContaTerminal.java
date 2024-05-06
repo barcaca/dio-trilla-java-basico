@@ -34,7 +34,7 @@ public class ContaTerminal {
         String numeroAgencia = scanner.nextLine();
 
         // Solicita ao usuário o nome do titular da conta e armazena a entrada em uma string
-        System.out.print("Por favor, digite o nome completo do titular da conta: ");
+        System.out.print("Por favor, digite o nome do titular da conta: ");
         String nomeTitular = scanner.nextLine();
 
         /*
@@ -42,17 +42,16 @@ public class ContaTerminal {
          * double. Este método garante que apenas números decimais sejam digitados e converte
          * vírgulas em pontos decimais.
          */
-        System.out.print("Ok, Sr." + nomeTitular.split(" ")[1]
+        System.out.print("Ok, Sr." + nomeTitular
                 + ".Preciso que digite o saldo a ser depositado na sua conta:");
         String entradaSaldo = scanner.nextLine();
         double saldo = Double.parseDouble(entradaSaldo.replace(',', '.'));
 
         // Exibe uma mensagem de agradecimento ao usuário, informando os detalhes da conta e o saldo
         // disponível.
-        System.out.println("Olá " + nomeTitular
-                + ", obrigado por criar uma conta em nosso banco, sua agência é " + numeroAgencia
-                + ", conta " + numeroConta + " e seu saldo " + saldo
-                + " já está disponível para saque");
+        System.out.println("Olá " + nomeTitular + ", obrigado por criar uma conta em nosso banco!"
+                + "\n" + "Sua agência é: " + numeroAgencia + "\n" + "Sua conta é: " + numeroConta
+                + "\n" + "Seu saldo atual é de: R$ " + saldo + " já está disponível para saque");
 
         // Fecha o objeto Scanner para liberar recursos.
         scanner.close();
