@@ -1,18 +1,36 @@
-## Getting Started
+# Readme - Contador
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Descrição:
 
-## Folder Structure
+Este programa Java, denominado "Contador", permite ao usuário digitar dois parâmetros e em seguida realiza uma contagem regressiva, exibindo cada número no console.
 
-The workspace contains two folders by default, where:
+## Funcionalidades:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Solicitação de dois parâmetros inteiros ao usuário.
+- Realização de uma contagem a partir da diferença entre o primeiro e o segundo parâmetro.
+- Exibição de cada número contado no console.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Como Executar:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Para executar o programa, siga os passos abaixo:
 
-## Dependency Management
+1. Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema.
+2. Abra um terminal ou prompt de comando.
+3. Navegue até o diretório onde o arquivo Contador.java está localizado.
+4. Compile o arquivo usando o comando: `javac Contador.java`
+5. Execute o programa compilado usando o comando: `java Contador`
+6. Siga as instruções fornecidas no console para inserir os parâmetros desejados e observe a contagem regressiva sendo exibida.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Exemplo de Execução:
+
+Supondo que o usuário insira os parâmetros 5 e 10, a saída do programa seria:
+
+```
+Digite o primeiro parâmetro: 5
+Digite o segundo parâmetro: 10
+Imprimindo o número 1
+Imprimindo o número 2
+Imprimindo o número 3
+Imprimindo o número 4
+Imprimindo o número 5
+```
