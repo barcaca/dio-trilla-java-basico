@@ -23,7 +23,9 @@ O desafio consiste em criar um sistema que simule as funcionalidades de um iPhon
 
 ## Diagrama UML
 
-![Diagrama UML](uml-diagram-iphone.png)
+<p align="center">
+  <img src="uml-diagram-iphone.png" alt="Diagrama UML">
+</p>
 
 ## Estrutura do Projeto
 
