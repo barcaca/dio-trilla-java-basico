@@ -61,6 +61,6 @@ Atualizando página...
 Para executar o projeto, basta compilar e executar a classe `Iphone.java`.
 
 ```bash
-javac src/com/seuapp/devices/Iphone.java
-java src/com/seuapp/devices/Iphone
+javac src/com/iphone/devices/Iphone.java
+java src/com/iphone/devices/Iphone
 ```
