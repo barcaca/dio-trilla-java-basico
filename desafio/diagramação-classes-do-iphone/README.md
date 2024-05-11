@@ -29,13 +29,13 @@ O projeto está estruturado da seguinte forma:
   - `com/iphone/`
     - `interfaces/`: Contém as interfaces do sistema.
     - `models/`: Contém as classes de modelo do sistema.
-    - `devices/`: Contém a classe `iPhone` que implementa as funcionalidades.
+    - `devices/`: Contém a classe `Iphone` que implementa as funcionalidades.
 
 ## Como Executar
 
-Para executar o projeto, basta compilar e executar a classe `iPhone.java`.
+Para executar o projeto, basta compilar e executar a classe `Iphone.java`.
 
 ```bash
-javac src/com/seuapp/devices/iPhone.java
-java src/com/seuapp/devices/iPhone
+javac src/com/seuapp/devices/Iphone.java
+java src/com/seuapp/devices/Iphone
 ```
