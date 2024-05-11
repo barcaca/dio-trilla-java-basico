@@ -21,6 +21,10 @@ O desafio consiste em criar um sistema que simule as funcionalidades de um iPhon
   - Adicionar uma nova aba
   - Atualizar a página
 
+## Diagrama UML
+
+![Diagrama UML](uml-diagram-iphone.png)
+
 ## Estrutura do Projeto
 
 O projeto está estruturado da seguinte forma:
@@ -30,6 +34,27 @@ O projeto está estruturado da seguinte forma:
     - `interfaces/`: Contém as interfaces do sistema.
     - `models/`: Contém as classes de modelo do sistema.
     - `devices/`: Contém a classe `iPhone` que implementa as funcionalidades.
+
+## Resultado Esperado
+
+O resultado esperado é um sistema funcional que simule as funcionalidades de um iPhone, conforme descrito nas funcionalidades acima.
+
+```
+Musica
+Selecionando música: Stairway to Heaven
+Tocando música...
+Pausando música...
+
+Chamada
+Ligando para: 123456789
+Atendendo chamada...
+Iniciando correio de voz...
+
+Pagina Web
+Exibindo página: www.example.com
+Adicionando nova aba: www.example.com
+Atualizando página...
+```
 
 ## Como Executar
 
