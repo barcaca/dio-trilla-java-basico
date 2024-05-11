@@ -1,18 +1,41 @@
-## Getting Started
+# Desafio Digital Innovation One (DIO)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório contém a solução para o desafio proposto pela Digital Innovation One.
 
-## Folder Structure
+## Desafio
 
-The workspace contains two folders by default, where:
+O desafio consiste em criar um sistema que simule as funcionalidades de um iPhone, incluindo um reprodutor musical, um aparelho telefônico e um navegador de internet. Cada funcionalidade deve ser representada por interfaces e implementadas em uma classe `iPhone`.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+### Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- **Reprodutor Musical:**
+  - Tocar música
+  - Pausar música
+  - Selecionar música
+- **Aparelho Telefônico:**
+  - Fazer uma ligação
+  - Atender uma chamada
+  - Iniciar correio de voz
+- **Navegador de Internet:**
+  - Exibir uma página web
+  - Adicionar uma nova aba
+  - Atualizar a página
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do Projeto
 
-## Dependency Management
+O projeto está estruturado da seguinte forma:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- `src/`
+  - `com/iphone/`
+    - `interfaces/`: Contém as interfaces do sistema.
+    - `models/`: Contém as classes de modelo do sistema.
+    - `devices/`: Contém a classe `iPhone` que implementa as funcionalidades.
+
+## Como Executar
+
+Para executar o projeto, basta compilar e executar a classe `iPhone.java`.
+
+```bash
+javac src/com/seuapp/devices/iPhone.java
+java src/com/seuapp/devices/iPhone
+```
