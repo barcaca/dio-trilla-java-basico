@@ -1,4 +1,4 @@
-# Desafio Digital Innovation One (DIO)
+# Desafio Diagramação Classes do Iphone
 
 Este repositório contém a solução para o desafio proposto pela Digital Innovation One.
 
