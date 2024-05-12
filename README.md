@@ -6,14 +6,21 @@ Bem-vindo ao repositório do Curso de Java Básico oferecido pela Digital Innova
 
 Nesta seção, você encontrará exemplos de código cobertos durante o curso. Cada exemplo está organizado em seu próprio diretório e acompanhado de uma breve descrição do conceito abordado.
 
-- [Exemplo 1: Introdução ao Java](exemplos/introducao-java)
-
+- [Exemplo 1: Tipos Variaveis](exemplos/1-tipos-variaveis)
+- [Exemplo 2: Sistema Smart Tv](exemplos/2-sistema-smart-tv)
+- [Exemplo 3: Java Terminal](exemplos/3-java-terminal)
+- [Exemplo 4: Estruturas Condicionais](exemplos/4-estrturas-condicionais)
+- [Exemplo 5: Controle Fluxo](exemplos/5-controle-fluxo)
+- [Exemplo 6: Debugging Java](exemplos/6-debugging-java)
+- [Exemplo 7: Controle Candidatos](exemplos/7-controle-candidatos)
+- [Exemplo 8: Exemplo Pacote](exemplos/8-exemplo-pacote)
+- [Exemplo 9: Pilares POO](exemplos/9-pilares-poo)
 
 ## Desafios de Código
 
 Nesta seção, você encontrará desafios propostos ao longo do curso para praticar os conceitos aprendidos. Cada desafio está em seu próprio diretório e inclui uma descrição do problema a ser resolvido.
 
-- [Desafio 1: Condiçoes Loop e Exeções](desafios/condições-loops-e-execoes-java)
+- [Desafio 1: Condiçoes Loop e Exeções](desafios/1-condições-loops-e-execoes-java)
 
 ## Projetos
 
