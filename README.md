@@ -7,9 +7,7 @@ Bem-vindo ao repositório do Curso de Java Básico oferecido pela Digital Innova
 Nesta seção, você encontrará exemplos de código cobertos durante o curso. Cada exemplo está organizado em seu próprio diretório e acompanhado de uma breve descrição do conceito abordado.
 
 - [Exemplo 1: Introdução ao Java](exemplos/introducao-java)
-- [Exemplo 2: Estruturas de Controle](exemplos/estruturas-controle)
-- [Exemplo 3: Arrays e Listas](exemplos/arrays-listas)
-- [Exemplo 4: POO (Programação Orientada a Objetos)](exemplos/poo)
+
 
 ## Desafios de Código
 
@@ -21,17 +19,13 @@ Nesta seção, você encontrará desafios propostos ao longo do curso para prati
 
 Nesta seção, você encontrará projetos desenvolvidos durante o curso, que são aplicações mais completas envolvendo múltiplos conceitos abordados.
 
-- [Projeto 1: Sistema de Biblioteca](projetos/biblioteca)
-- [Projeto 2: Aplicativo de Notas](projetos/aplicativo-notas)
-- [Projeto 3: Mini E-commerce](projetos/mini-ecommerce)
+- [Projeto 1: Simulando Uma Conta Bancária Através Do Terminal/Console](desafio/conta-banco)
+- [Projeto 2: Criando Um Pequeno Sistema Para Validação de Processo Seletivo](desafio/controle-fluxo)
+- [Projeto 3: Orientação a Objetos e UML: Diagramação de Classes do iPhone](desafio/diagramação-classes-do-iphone)
 
 ## Como Contribuir
 
 Se você quiser contribuir com este repositório, sinta-se à vontade para abrir issues relatando problemas encontrados, sugestões de melhorias ou até mesmo enviar um pull request com suas contribuições.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
