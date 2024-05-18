@@ -69,7 +69,7 @@ public class Banco {
    * 
    * @param cpf CPF do cliente cujas informações serão impressas.
    */
-  public void imprimirInformacoesClientePorCPF(String cpf) {
+  protected void imprimirInformacoesClientePorCPF(String cpf) {
     Cliente cliente = procurarClientePorCPF(cpf);
     if (cliente != null) {
       System.out.println(cliente.imprimirInformacoes());

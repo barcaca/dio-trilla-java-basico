@@ -22,6 +22,12 @@ O projeto está organizado da seguinte forma:
 - **ContaPoupanca.java**: Implementação da classe `ContaPoupanca`, que herda de `Conta` e representa uma conta poupança.
 - **IConta.java**: Interface que define os métodos que devem ser implementados pelas classes de conta.
 
+## Diagrama UML
+
+<p align="center">
+  <img src="uml-banco-digital.png" alt="Diagrama UML">
+</p>
+
 ## Como Utilizar
 
 Para utilizar o projeto, basta clonar este repositório e importá-lo em sua IDE de preferência. Em seguida, você pode executar a aplicação ou realizar testes unitários para verificar o funcionamento das classes e métodos implementados.
