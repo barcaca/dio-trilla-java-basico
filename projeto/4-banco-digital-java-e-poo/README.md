@@ -25,7 +25,7 @@ O projeto está organizado da seguinte forma:
 ## Diagrama UML
 
 <p align="center">
-  <img src="uml-banco-digital.png" alt="Diagrama UML">
+  <img src="uml-banco-digital.jpg" alt="Diagrama UML">
 </p>
 
 ## Como Utilizar
